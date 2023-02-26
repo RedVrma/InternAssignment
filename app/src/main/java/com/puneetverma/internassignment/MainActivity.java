@@ -107,9 +107,6 @@ public class MainActivity extends AppCompatActivity {
                     i.setAction(Intent.ACTION_GET_CONTENT);
                     MainActivity.this.startActivityForResult(i,RESULT_LOAD_IMAGE);
 
-
-
-
                 }
             });
 

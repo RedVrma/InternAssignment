@@ -19,6 +19,7 @@ public class ImageOpen extends AppCompatActivity {
         setContentView(R.layout.activity_image_open);
 
         iv_image=findViewById(R.id.iv_imageOpen);
+        getSupportActionBar().hide();
 
         Intent i = getIntent();
         Glide.with(this)

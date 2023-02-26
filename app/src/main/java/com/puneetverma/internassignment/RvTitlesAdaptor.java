@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -78,7 +79,7 @@ public class RvTitlesAdaptor extends RecyclerView.Adapter<RvTitlesAdaptor.myHold
     class myHolder extends RecyclerView.ViewHolder
     {
         TextView tv_title;
-        Button btn_gallery;
+        ImageView btn_gallery;
 
         RecyclerView rv_images;
 
