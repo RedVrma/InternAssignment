@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 
+import java.util.Objects;
+
 public class ImageOpen extends AppCompatActivity {
 
     ImageView iv_image;
@@ -19,7 +21,8 @@ public class ImageOpen extends AppCompatActivity {
         setContentView(R.layout.activity_image_open);
 
         iv_image=findViewById(R.id.iv_imageOpen);
-        getSupportActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
+
 
         Intent i = getIntent();
         Glide.with(this)

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Add Photos</string>
     <string name="title">Title</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="imagecontainer">ImageContainer</string>
+    <string name="AddImageIcon">AddImageIcon</string>
 </resources>
