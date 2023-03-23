@@ -1,4 +1,4 @@
-# testPuneetVerma
+# Representation of various android tech
 you know....
 
 Just An Photos Viewing App Demonstrating URI And Image Viewer Capabilities.
